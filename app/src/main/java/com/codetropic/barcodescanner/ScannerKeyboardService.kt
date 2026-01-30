@@ -14,7 +14,7 @@ class ScannerKeyboardService : InputMethodService() {
 
     companion object {
         var pendingScanText: String? = null
-        private const val TAG = "ScannerKeyboardService"
+        private const val TAG = "MainActivity"
     }
 
     override fun onCreateInputView(): View {
